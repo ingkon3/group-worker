@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationPackage SchemaVersion="1.0" AutodeskProduct="Revit" ProductType="Application" AppVersion="1.0.0"
+                    SupportedLocales="Enu" ProductCode="B66B62EB-80AE-4F3D-AF3A-65034583BA76">
+  <CompanyDetails Name="Rembox" Url="https://VendorUrl.com/" Email="email@vendor.com"/>
+  <Components Description="Contents 2020">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2020" SeriesMax="R2020"/>
+    <ComponentEntry AppName="GroupWorkerTwo" ModuleName="./Contents/GroupWorkerTwo.addin"/>
+  </Components>
+  <Components Description="Contents 2021">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2021" SeriesMax="R2021"/>
+    <ComponentEntry AppName="GroupWorkerTwo" ModuleName="./Contents/GroupWorkerTwo.addin"/>
+  </Components>
+  <Components Description="Contents 2022">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022"/>
+    <ComponentEntry AppName="GroupWorkerTwo" ModuleName="./Contents/GroupWorkerTwo.addin"/>
+  </Components>
+  <Components Description="Contents 2023">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2023" SeriesMax="R2023"/>
+    <ComponentEntry AppName="GroupWorkerTwo" ModuleName="./Contents/GroupWorkerTwo.addin"/>
+  </Components>
+  <Components Description="Contents 2024">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2024" SeriesMax="R2024"/>
+    <ComponentEntry AppName="GroupWorkerTwo" ModuleName="./Contents/GroupWorkerTwo.addin"/>
+  </Components>
+</ApplicationPackage>

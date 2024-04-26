@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Fragment>
+        <DirectoryRef Id="RevitAddinFolder2021">
+            <Component Id="cmp41DB197E0004C982CFB042D2AEEC2C6C" Guid="*">
+                <File Id="fil7EC47987AF4427519DDDDC3BDCE2CEC5" KeyPath="yes" Source="$(var.ExecutablesPath2021)\Ninject.dll" />
+            </Component>
+            <Component Id="cmpD00194EA08D27430B671F945F965CC87" Guid="*">
+                <File Id="fil82C69B43F716D412353F6F67BBE686CC" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Core.dll" />
+            </Component>
+            <Component Id="cmp95823B5D0244EF1B73EC85BFB10394BB" Guid="*">
+                <File Id="fil9E93AC911FCB77B881954FA6A8343903" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Core.pdb" />
+            </Component>
+            <Component Id="cmpC9F16850CE74D5B41676F59225D03BAB" Guid="*">
+                <File Id="filACC802FDFA26215C30DE4E00B87516EA" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Main.dll" />
+            </Component>
+            <Component Id="cmpB1766CE9C31E30BE4E14471D3110B70E" Guid="*">
+                <File Id="fil3D1AB7C61206C20C23FDC99BB4F6A406" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Main.pdb" />
+            </Component>
+            <Component Id="cmp690E8D657AA24BE9D39EB0685967A7A1" Guid="*">
+                <File Id="filBDD1DADD3B402A3C2BC753A15A431DE9" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.UI.dll" />
+            </Component>
+            <Component Id="cmp35B367F95AD86E24A227F9B41D54A7CB" Guid="*">
+                <File Id="fil41C36B0BE906E7662B961CA0F530E546" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.UI.pdb" />
+            </Component>
+            <Component Id="cmp47C0D550404BD8DD4C584D5C5A2840A7" Guid="*">
+                <File Id="fil182CE0BC6FAD6D0CC1052CF2BB902A5C" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Web.dll" />
+            </Component>
+            <Component Id="cmp994A16B49AC72645A4336E93154FD383" Guid="*">
+                <File Id="filF189F7EF27D72C8E9974A1381A928BB1" KeyPath="yes" Source="$(var.ExecutablesPath2021)\GroupWorkerTwo.Web.pdb" />
+            </Component>
+        </DirectoryRef>
+    </Fragment>
+    <Fragment>
+        <ComponentGroup Id="ExecutablesGroup2021">
+            <ComponentRef Id="cmp41DB197E0004C982CFB042D2AEEC2C6C" />
+            <ComponentRef Id="cmpD00194EA08D27430B671F945F965CC87" />
+            <ComponentRef Id="cmp95823B5D0244EF1B73EC85BFB10394BB" />
+            <ComponentRef Id="cmpC9F16850CE74D5B41676F59225D03BAB" />
+            <ComponentRef Id="cmpB1766CE9C31E30BE4E14471D3110B70E" />
+            <ComponentRef Id="cmp690E8D657AA24BE9D39EB0685967A7A1" />
+            <ComponentRef Id="cmp35B367F95AD86E24A227F9B41D54A7CB" />
+            <ComponentRef Id="cmp47C0D550404BD8DD4C584D5C5A2840A7" />
+            <ComponentRef Id="cmp994A16B49AC72645A4336E93154FD383" />
+        </ComponentGroup>
+    </Fragment>
+</Wix>

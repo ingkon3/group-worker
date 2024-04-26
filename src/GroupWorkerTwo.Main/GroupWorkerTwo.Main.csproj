@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop" ToolsVersion="Current">
+
+  <PropertyGroup>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <TargetFramework>net48</TargetFramework>
+    <Platforms>x64</Platforms>
+    <ResolveNuGetPackages>true</ResolveNuGetPackages>
+    <Configurations>Debug;Release;Release2020;Release2021;Release2022;Release2023;Release2024</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ninject" Version="3.3.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Manifests\GroupWorkerTwo.addin" />
+
+    <Content Include="Properties\launchSettings.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroupWorkerTwo.Core\GroupWorkerTwo.Core.csproj" />
+    <ProjectReference Include="..\GroupWorkerTwo.UI\GroupWorkerTwo.UI.csproj" />
+    <ProjectReference Include="..\GroupWorkerTwo.Web\GroupWorkerTwo.Web.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\testCommand.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Icons\testCommand.png" />
+  </ItemGroup>
+</Project>

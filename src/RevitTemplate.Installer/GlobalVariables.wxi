@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<Include>
-  <?define Manufacturer="Vendor"?>
-  <?define AppName="Revit Addin"?>
-  <?define ProjectName="RevitTemplate.Main"?>
-  <?define BuildVersion="$(var.InstallerBuildVersion)" ?>
-</Include>

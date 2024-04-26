@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+   <FullClassName>GroupWorkerTwo.Main.App</FullClassName>
+   <ClientId>AE338E11-C3FE-45DC-BF3E-F238841DEB84</ClientId>
+   <Name>GroupWorkerTwo</Name>
+   <Assembly>GroupWorkerTwo.Main.dll</Assembly>
+   <VendorId>Rembox</VendorId>
+ </AddIn>
+</RevitAddIns>
+

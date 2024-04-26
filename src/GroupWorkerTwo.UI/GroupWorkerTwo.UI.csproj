@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Nullable>disable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Configurations>Debug;Release;Release2020;Release2021;Release2022;Release2023;Release2024</Configurations>
+    <Platforms>x64</Platforms>
+    <TargetFrameworks>net48;net6.0-windows</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GroupWorkerTwo.Core\GroupWorkerTwo.Core.csproj" />
+    <ProjectReference Include="..\GroupWorkerTwo.Web\GroupWorkerTwo.Web.csproj" />
+  </ItemGroup>
+</Project>
